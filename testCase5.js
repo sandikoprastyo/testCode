@@ -28,7 +28,6 @@ function DecryptingEmojiCode(text) {
   // Replace emojis in the text with their corresponding words/phrases
   const decryptedText = text.replace(emojiRegex, (match) => {
     // Check if the emoji exists in the encoding scheme
-    console.log(match)
     return encodingScheme[match] || match;
   });
 
@@ -38,13 +37,13 @@ function DecryptingEmojiCode(text) {
 export default DecryptingEmojiCode;
 
 
-// Sample inputs
-const input1 = "I'm feeling 🤔 about the upcoming ✈️ trip. Will we see 🗺️ landmarks?";
-// const input2 = "🥷🏼! 🎊 for the 🥷🏼 birthday surprise! ☄️ to the party place!";
+// // Sample inputs
+// const input1 = "I'm feeling 🤔 about the upcoming ✈️ trip. Will we see 🗺️ landmarks?";
+// // const input2 = "🥷🏼! 🎊 for the 🥷🏼 birthday surprise! ☄️ to the party place!";
 
-// Decode the Emoji Code using the provided encoding scheme
-console.log(DecryptingEmojiCode(input1));
-// console.log(DecryptingEmojiCode(input2));
+// // Decode the Emoji Code using the provided encoding scheme
+// console.log(DecryptingEmojiCode(input1));
+// // console.log(DecryptingEmojiCode(input2));
 
 
 
