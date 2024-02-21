@@ -1,0 +1,23 @@
+{
+  "name": "testcode",
+  "version": "1.0.0",
+  "description": "test code",
+  "main": "testCase1.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "coverage" : "jest --coverage",
+    "watch": "jest --watch"
+
+  },
+  "author": "Diko",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0"
+  }
+}
