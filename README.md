@@ -5,6 +5,9 @@
 `npm test || npm test {nameFile}`
 `npm watch || npm watch {nameFile}`
 
+#### Running Coverage Tests
+`npm run coverage`
+
 ###### Description
 - case 1 [Unearthing the Philosopher's Stone](./testCase1.js)
 - case 2 [The Time Wizard's Gambit](./testCase2.js)

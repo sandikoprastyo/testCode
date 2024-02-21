@@ -5,6 +5,7 @@
   "main": "testCase1.js",
   "scripts": {
     "test": "jest",
+    "coverage" : "jest --coverage",
     "watch": "jest --watch"
 
   },
