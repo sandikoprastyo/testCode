@@ -5,7 +5,7 @@ describe('test case 3', () => {
     expect(isCircularPalindrome('racecar')).toBeTruthy();
   });
 
-  test('test case 2 Input: hello world Output: true', () => {
+  test('test case 2 Input: hello world Output: false', () => {
     expect(isCircularPalindrome('hello world')).toBeFalsy();
   });
 

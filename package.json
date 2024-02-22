@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "test code",
   "main": "testCase1.js",
-  "type": "module",
   "scripts": {
     "test": "jest",
     "coverage" : "jest --coverage",
